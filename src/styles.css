@@ -1,0 +1,67 @@
+
+body{
+  height: 100vh;
+  padding:1em;
+  background: linear-gradient(to right, #283048, #859398);
+  
+}
+h1{
+  font-size: 2.5rem;
+ 
+}
+h3{
+  margin: 0;
+}
+
+img{
+  /*first image looks ugly even without resizing it */
+  height:300px;
+  width:300px;
+  object-fit: cover;
+  display: block;
+  margin:0.75em auto;
+}
+
+p{
+  font-size: 1.55rem;
+}
+
+.content-div{
+  border: 8px double #020203 ;
+  height:85%;
+  /*add bg image of resto here */
+
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-buttons{
+  display: flex;
+  justify-content: center;
+  gap:1em;
+}
+
+button{
+  margin-bottom: 1rem;
+  padding:8px 16px;
+  border-radius: 4px;
+  background-color:#859398;
+
+  font-size: 1rem;
+  color:#0c101b;
+}
+button:hover{
+  cursor: pointer;
+  background-color:#85939800 ;
+}
+
+.home-content{
+  height: 100%;
+  background-color:rgb(182, 203, 221) ;
+  padding-left: 1em;
+}
+
+.center{
+  text-align: center;
+}
+
